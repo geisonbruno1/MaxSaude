@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-red: #f40404;
+  --color-gray: #cccccc;
+  --color-white: #fff;
+  --bg-blue: #222374;
+  --text-black: #000;
+}
+
+* {
+  font-family: "Open sans";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--color-red);
+  height: 100px;
+  width: 1200%;
+}
+
+nav h1 {
+    position: absolute;
+  width: 99px;
+  height: 25px;
+  left: 120px;
+  top: 38px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  color: #ffffff;
+}
+
+nav h2 {
+  font-family: "Open Sans";
+  color: var(--color-white);
+  font-size: 14px;
+  position: absolute;
+  width: 85px;
+  height: 19px;
+  left: 1350px;
+  top: 41px;
+  line-height: 19px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.container {
+  position: absolute;
+  width: 1200px;
+  height: 418px;
+  left: 0px;
+  top: 100px;
+  background: #222374;
+}
+
+img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1315px;
+  top: 35px;
+}
+
+.backend {
+  position: absolute;
+  width: 1200px;
+  height: 418px;
+  left: 0px;
+  top: 100px;
+  background-color: #222374;
+}
+
+nav h3 {
+  align-items: center;
+  width: 960px;
+  height: 100px;
+  left: 120px;
+  top: 204px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #ffffff;
+}
+
+.fit-card {
+  margin-bottom: 0px;
+  display: flex;
+  padding: 20px 0;
+  background-color: #cccccc;
+  position: absolute;
+  width: 960px;
+  height: 127px;
+  left: 120px;
+  top: 204px;
+  border-radius: 8px;
+}
+
+.card-description {
+  display: flex;
+  color: #000000;
+  justify-content: space-between;
+  padding: 20px 20px 80px;
+  flex-direction: column;
+}
+
+.card-description h3 {
+  padding: 10px 80;
+  width: 142px;
+  height: 27px;
+  left: 140px;
+  top: 224px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.card-description p {
+  color: var(--text-black);
+  font-size: 14px;
+}
