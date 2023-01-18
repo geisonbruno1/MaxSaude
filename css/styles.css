@@ -18,23 +18,15 @@
 header {
   background-color: var(--color-red);
   height: 100px;
-  width: 1200%;
 }
 
-nav h1 {
-    position: absolute;
-  width: 99px;
-  height: 25px;
-  left: 120px;
-  top: 38px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
+nav {
+  display: flex;
   align-items: center;
-  color: #ffffff;
+  justify-content: center;
 }
 
-nav h2 {
+ /* h2 {
   font-family: "Open Sans";
   color: var(--color-white);
   font-size: 14px;
@@ -46,51 +38,22 @@ nav h2 {
   line-height: 19px;
   align-items: center;
   font-weight: 400;
-}
+} */
 
 .container {
-  position: absolute;
-  width: 1200px;
-  height: 418px;
-  left: 0px;
-  top: 100px;
-  background: #222374;
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
 }
+
 
 img {
-  position: absolute;
   width: 30px;
   height: 30px;
-  left: 1315px;
-  top: 35px;
-}
-
-.backend {
-  position: absolute;
-  width: 1200px;
-  height: 418px;
-  left: 0px;
-  top: 100px;
-  background-color: #222374;
-}
-
-nav h3 {
-  align-items: center;
-  width: 960px;
-  height: 100px;
-  left: 120px;
-  top: 204px;
-  font-style: normal;
-  font-weight: 550;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  color: #ffffff;
 }
 
 .fit-card {
   margin-bottom: 0px;
-  display: flex;
   padding: 20px 0;
   background-color: #cccccc;
   position: absolute;
