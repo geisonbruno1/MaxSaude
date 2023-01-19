@@ -85,10 +85,11 @@ img {
 }
 
 #modality {
+ background-color:var(--color-white);
   padding: 20px;
 }
 
-#modality h4 {
+#modality h2 {
   margin-bottom: 40px;
   font-size: 32px;
   font-weight: 700px;
@@ -98,11 +99,10 @@ img {
 .card-mod {
   background-color: var(--bg-blue);
   border-radius: 8px;
-  padding: 20px;
   margin-bottom: 20px;
 }
 
-.card-mod h5 {
+.card-mod h3 {
   font-size: 20px;
   padding: 20px;
   font-weight: 700;
