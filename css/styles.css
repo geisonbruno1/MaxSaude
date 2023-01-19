@@ -18,27 +18,28 @@
 header {
   background-color: var(--color-red);
   height: 100px;
+  display: flex;
+  color: var(--color-white);
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
- /* h2 {
-  font-family: "Open Sans";
-  color: var(--color-white);
-  font-size: 14px;
-  position: absolute;
-  width: 85px;
-  height: 19px;
-  left: 1350px;
-  top: 41px;
-  line-height: 19px;
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.flex1 {
+  display: flex;
   align-items: center;
-  font-weight: 400;
-} */
+  font-size: 14px;
+  font-weight: 400px;
+}
 
 .container {
   width: 100%;
@@ -46,47 +47,71 @@ nav {
   margin: 0 auto;
 }
 
-
 img {
   width: 30px;
   height: 30px;
+  margin-right: 5px;
 }
 
-.fit-card {
-  margin-bottom: 0px;
-  padding: 20px 0;
-  background-color: #cccccc;
-  position: absolute;
-  width: 960px;
-  height: 127px;
-  left: 120px;
-  top: 204px;
+#space {
+  background-color: var(--bg-blue);
+  padding: 20px;
+}
+
+.card-space {
+  background-color: var(--color-gray);
+  margin-bottom: 20px;
+  padding: 20px;
   border-radius: 8px;
 }
 
-.card-description {
-  display: flex;
-  color: #000000;
-  justify-content: space-between;
-  padding: 20px 20px 80px;
-  flex-direction: column;
-}
-
-.card-description h3 {
-  padding: 10px 80;
-  width: 142px;
-  height: 27px;
-  left: 140px;
-  top: 224px;
-  font-weight: 700;
+.card-space h3 {
+  margin-bottom: 20px;
   font-size: 20px;
-  line-height: 27px;
-  display: flex;
-  align-items: center;
-  color: #000000;
+  font-weight: 700;
+  color: var(--text-black);
 }
 
-.card-description p {
-  color: var(--text-black);
+.card-space p {
+  font-weight: 400px;
   font-size: 14px;
+  color: var(--text-black);
+}
+
+#space h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700px;
+}
+
+#modality {
+  padding: 20px;
+}
+
+#modality h4 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700px;
+  color: var(--color-red);
+}
+
+.card-mod {
+  background-color: var(--bg-blue);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-mod h5 {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.card-mod p {
+  font-size: 14px;
+  font-weight: 400px;
+  color: var(--color-white);
+  padding-bottom: 20px;
 }
