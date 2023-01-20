@@ -8,6 +8,8 @@
   --text-black: #000;
 }
 
+
+
 * {
   font-family: "Open sans";
   box-sizing: border-box;
@@ -29,16 +31,23 @@ nav {
   flex-direction: row;
 }
 
+a , a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
 h1 {
   font-size: 18px;
   font-weight: 700;
 }
 
+
+
 .flex1 {
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 .container {
@@ -82,10 +91,11 @@ img {
   margin-bottom: 40px;
   font-size: 32px;
   font-weight: 700px;
+  color: var(--color-white);
 }
 
 #modality {
- background-color:var(--color-white);
+  background-color: var(--color-white);
   padding: 20px;
 }
 
@@ -100,18 +110,45 @@ img {
   background-color: var(--bg-blue);
   border-radius: 8px;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 .card-mod h3 {
   font-size: 20px;
-  padding: 20px;
   font-weight: 700;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: var(--color-white);
 }
 
 .card-mod p {
   font-size: 14px;
   font-weight: 400px;
   color: var(--color-white);
-  padding-bottom: 20px;
+}
+
+footer {
+  background-color: var(--text-black);
+  padding: 60px;
+  color: var(--color-white);
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 260px;
+}
+
+.container-social {
+  align-items: center; 
+  justify-content: center;
+  display: flex;  
+}
+
+.social img {
+  margin-bottom: 10px;
+}
+
+.container-end {
+  padding: 30px
 }
